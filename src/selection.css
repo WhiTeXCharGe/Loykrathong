@@ -1,0 +1,159 @@
+body {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("./component/Background.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.krathongmidlle {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    
+}
+
+.rightbotcorner {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    
+}
+
+.titlename {
+    position: absolute;
+    top: 0%;
+    left:40%;
+
+}
+
+h6 {
+    font-size: 84px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+้h2, h1, h3, p, h4 {
+  font-family: 'Pattaya', sans-serif;
+  color: white;
+}
+
+
+
+.leftbotcorner {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+}
+
+.middleWherePlace {
+  position: relative;
+  top: 0%;
+  left: 500px;
+  color: #df542c;
+}
+/*#pop-up {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./component/Background.png");
+
+    display: none;
+    justify-content: center;
+    align-items: center; 
+}*/
+
+.pop-up-inner {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 80%;
+  
+}
+
+input {
+    background-color: violet;
+}
+
+
+
+.popup1 {
+    position: absolute;
+    width: 1300px;
+    left: -100px;
+    background-color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+#bgPopup {
+    position: fixed;
+    background-image: url("./component/ภาคเหนือ.png");
+    
+}
+
+*{
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0px;
+  background-color:#D6E5FF;
+    list-style: none;
+    font-family: 'Kanit';
+  }
+  header li{
+    width: 10%;
+    height: auto;
+    line-height: 32px;
+    float: left;
+  }
+  header li:nth-child(2){
+    width: 80%;
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  header li:nth-child(3){
+    padding: 20px;
+  }
+  header li:nth-child(3) a{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #df542c;
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Kanit:400,100");
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  

@@ -1,0 +1,30 @@
+.footer-box{
+    background:#fa6400;
+    margin-top: 2rem;
+    height: 6rem;
+    width: auto;
+    
+}
+.text1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+.text2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding-top: 0rem;
+    font-family: 'Kanit', sans-serif;
+}
+.about{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text2 a.about:hover{
+    color: #fff;
+}
